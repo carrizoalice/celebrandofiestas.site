@@ -1,0 +1,541 @@
+/* styles.css */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	background: url('../images/bg.png');
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #2e2e2e;
+}
+
+@font-face {
+    font-family: 'pinyon_scriptregular';
+    src: url('../font/pinyon/pinyonscript-regular.eot');
+    src: url('../font/pinyon/pinyonscript-regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/pinyon/pinyonscript-regular.woff') format('woff'),
+         url('../font/pinyon/pinyonscript-regular.ttf') format('truetype'),
+         url('../font/pinyon/pinyonscript-regular.svg#pinyon_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#contenedor { 	
+	width: 960px;
+    margin: auto;
+}
+
+
+
+
+span.mint{ 
+	color: #4eaebe;
+}
+
+
+
+
+
+
+/* ------------------------- HEADER --------------------------*/
+
+
+#header {
+	width: 960px;
+	height: 198px;
+	float: left;
+
+}
+
+
+#contacto {
+	padding-top: 94px;
+	padding-left: 9px;
+	margin-right: 173px;
+	font-size: 14px; 	
+	float: left;
+	
+}
+
+
+#logo {
+	padding-top: 54px;
+	float: left;
+}
+
+
+
+#redes {
+	padding-top: 93px;
+	padding-left: 290px;
+	float: left;
+}
+
+
+#fb_pnt{
+	float: left;
+	margin-right: 5px;
+}
+
+
+
+/* ------------------------- SLIDER ---------------------------*/
+
+#slider{
+	width:960px;
+	height: 340px;
+	float: left;
+	margin-bottom: 20px;
+
+} 
+
+
+/*------------------------- DESTACADOS -------------------------*/
+
+#destacados{
+	width: 960px;
+	height: 246px;
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 20px;
+}
+
+
+
+
+#destacado1{
+	background: url(../images/destacado1.jpg);
+	margin-right: 20px;
+	float: left;
+	width: 470px;
+	height: 246px;
+}
+
+#destacado1 span{
+	margin: 121px 0 0 311px;
+	color: #FFF;
+	float: left;
+
+}
+
+#destacado2{
+	background: url(../images/destacado2.jpg);
+	float: left;
+	width: 225px;
+	height: 246px;
+
+}
+
+#destacado2 span{
+	margin: 83px 0 0 57px;
+	color: #f95a9c;
+	float: left;
+
+}
+
+
+
+#destacado3{
+	background: url(../images/destacado3.jpg);
+	width: 225px;
+	height: 246px;
+	float: right;
+}
+
+#destacado3 span{
+	margin: 114px 0 0 20px;
+	color: #41b8b2;
+	float: left;
+
+}
+
+
+
+
+/*------------------------- FOOTER --------------------------*/
+
+footer{
+	width: 960px;
+	height: 136px;
+	background-color: #41b8b2;
+	margin-bottom: 60px;
+	clear: both;
+}
+
+
+.titulo_footer{
+	font-family: 'pinyon_scriptregular';
+	font-size: 36px;
+}
+
+
+
+footer .txt_footer{
+	width: 312px;
+	float: left;
+	text-align: center;
+	margin-top: 26px;
+	color: #ffffff;
+	border-right: 1px solid #8ed5d1;
+	
+}
+
+footer .txt_footer.last{
+	border-right: 0;
+	margin-right: 0;
+
+}
+
+#footer_line{
+	width: 940px;
+	height: 118px;
+	border: 1px solid #68c6c2;
+	margin-top: 8px;
+	margin-left: 8px;
+	float: left;
+
+}
+
+/*------------------------- CONTACTO --------------------------*/
+
+
+#destacados_contacto{
+	float: left;
+	margin-bottom: 20px;
+
+}
+
+#reservaciones{
+	width: 470px;
+	height: 63px;
+	float: left;
+	background-color: #41b8b2;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 21px;
+	margin-bottom:19px;
+}
+
+#mapa{
+	width: 470px;
+	height: 297px;
+	float: right;
+	border: 1px solid #f95a9c;
+}
+#pedido{
+	width: 470px;
+	height: 198px;
+	float: left;
+	margin-top: 7px;
+}
+ 
+
+/* Creo la animación */
+@-webkit-keyframes colores{
+	0%{
+		color: transparent;
+	}
+
+
+} /* cierra animación */
+
+
+
+
+#animation h1{
+	color: #f75d9d;
+
+	-webkit-animation-name: colores;
+	animation-name: colores;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	
+
+}
+
+
+
+
+
+
+ /*------------------------- FORMULARIO --------------------------*/
+
+#titulo{
+
+	font-family: 'pinyon_scriptregular';
+	font-size: 36px;
+	color: #f95a9c;
+	padding-left: 5px;
+	margin-bottom: 10px;
+
+
+}
+
+
+#titulo h1{
+	
+	font-size: 36px;
+	padding-left: 5px;
+
+	-webkit-animation-name: colores;
+	animation-name: colores;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	
+
+
+}
+
+
+#titulo_form{
+
+	font-family: 'pinyon_scriptregular';
+	font-size: 36px;
+	color: #f95a9c;
+	padding-left: 4px;
+	margin: 28px 0 15px 0;
+}
+
+
+
+
+	
+#form_derecha{
+	width:229px;
+	height:143px;
+	float: left;
+}	
+
+
+#form_izquierda{
+	width:229px;
+	height:143px;
+	float: right;
+}	
+	
+
+.form_box{
+	width: 146px;
+	height: 39px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	color:;
+	border: 1px solid #f95a9c;
+	margin-bottom: 6px;
+	float:right;
+	padding-left:3px;
+}
+	
+#form_pedido{
+	border: 1px solid #f95a9c;
+	float:right;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15px;
+	width: 146px;
+	height: 83px;	
+	margin-bottom: 6px;	
+	padding: 3px;
+	resize: none; 
+}
+		
+.txt_form{
+	float: left;
+	line-height: 45px;
+}
+
+#pedido_enviar{
+		width: 470px;
+	height: 198px;
+	float: left;
+	text-align: center;
+
+
+
+}
+
+.mint{
+	color: #41b8b2;
+}
+
+
+
+#form_izquierda input[type="submit"]{
+	width: 154px;
+	height: 39px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #FFF; 
+	font-size: 15px;
+	border: 1px solid #f95a9c;
+	background-color: #f95a9c;
+	cursor: pointer;/* resetea el cursor a pointed */
+	float: right;
+}
+
+
+.mapa_style{
+ 	width: 470px;
+	height: 297px;
+	border: 0;
+
+}
+
+
+/*------------------------- NOSOTROS --------------------------*/
+
+
+#img_nosotros{
+	width: 470px;
+	height: 606px;
+	float: left;
+}
+
+#quienes_somos{
+	width: 402px;
+	height: 434px;
+	background-color: #FFF;
+	float: right;
+	margin-bottom: 19px;
+	padding: 34px;
+
+}
+
+#destacados_nosotros #reservaciones{
+	float: right;
+}
+
+#quienes_somos h1{
+	font-family: 'pinyon_scriptregular';
+	font-size: 42px;
+	color: #f95a9c;
+	margin-bottom: 41px;
+	padding-left: 3px;
+
+}
+
+#quienes_somos p{
+	line-height: 28px;
+
+}
+
+
+ /*------------------------- FIESTAS --------------------------*/
+
+ #destacados_fiestas{
+	padding-top: 27px;
+	text-align: center;
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 19px;
+ }
+
+
+ #destacados_fiestas h1{
+	font-family: 'pinyon_scriptregular';
+	font-size: 42px;
+	color: #f95a9c;
+}
+
+
+ .fiestas{
+ 	width: 293px;
+ 	height: 195px;
+ 	float: left;
+ 	padding-left: 20px;
+ 	padding-bottom: 94px;
+
+ }
+
+ .fiestas h2{
+ 	margin-bottom: 15px;
+ 	font-size: 18px;
+ 	color: #41b8b2;
+ }
+
+
+ .linea{
+ 	border-bottom: 1px solid #fdc0d9;
+ 	text-align: center;
+ 	width: 475px;
+ 	margin: 0 auto 42px;
+ }
+
+ .linea h1{
+	display:inline-block;
+	position:relative;
+	top:26px;
+	background:#FFF;
+	padding:0 12px;
+
+ }
+
+
+  /*-------------------------- AYUDA --------------------------*/
+
+
+  #img_ayuda{
+	width: 470px;
+	height: 606px;
+	float: left;
+}
+
+#ayuda{
+	width: 402px;
+	height: 434px;
+	background-color: #FFF;
+	float: right;
+	margin-bottom: 19px;
+	padding: 34px;
+
+}
+
+#destacados_ayuda #reservaciones{
+	float: right;
+}
+
+#ayuda h1{
+	font-family: 'pinyon_scriptregular';
+	font-size: 42px;
+	color: #f95a9c;
+	margin-bottom: 41px;
+	padding-left: 5px;
+
+}
+
+#ayuda h2{
+	font-size: 17px;
+ }
+
+#ayuda p {
+line-height: 28px;
+}
+
+  /*--------------------------------- BLOG -------------------------------*/
+
+ #proximamente{
+  	width: 960px;
+ 	height: 500px;
+	padding-top: 27px;
+	text-align: center;
+	float: left;
+	margin-bottom: 19px;
+ }
+
+#txt_proximamente h1{
+	margin-top: 160px;
+	font-family: 'pinyon_scriptregular';
+	font-size: 48px;
+	color: #f95a9c;
+}
+
+
+ /* --------------------------- INTERNET EXPLORER 9 ------------------------------ */
+
+a img {
+border: 0;
+
+}
